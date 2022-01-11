@@ -24,8 +24,7 @@ local rainbow_text = coroutine.wrap(function(tag)
 end)
 
 local cool = { -- Userid, Title, Color (1 = rainbow, 0 = no rainbow, 2 = pink, 3 = blue)
-    {79685992, "Kaid (Owner)", 2},
-    {141930191, "Pozm <3 (Owner)", 3}
+    {79685992, "Kaid (Owner)", 2}
 }
 
 for i,v in pairs(plrs:GetChildren()) do
